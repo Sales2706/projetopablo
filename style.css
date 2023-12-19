@@ -1,0 +1,130 @@
+/* importação da fonte */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,700;1,400&display=swap');
+
+:root{
+    --font-padrao: 'poppins';
+    --cor-da-fonte: #ffffff;
+}
+
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: black;
+}
+
+/* divisão 1 */
+
+    .conteiner{
+        display: grid;
+        grid-auto-flow: column;
+        width: auto;
+        height: auto;
+    }
+
+    .conteiner #logo img{
+        margin: 0px;
+    
+    }
+
+    #menu{
+        font-family: var(--font-padrao);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 42px;
+        text-align: right;
+        margin-right: 35px;
+    }
+
+    #menu ul{
+        list-style-type: none;
+    }
+
+    #menu li{
+        display: inline-block;
+        margin-left: 20px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        
+    }
+
+    a{
+        text-decoration: none;
+        color:var(--cor-da-fonte)
+    }
+
+    .conteiner div a:hover{
+        color: rgb(241, 187, 86);
+    }
+
+
+/* divisão 2 */
+
+    header{
+        font-family: var(--font-padrao);
+        color: var(--cor-da-fonte);
+    }
+
+    header h1{
+        font-style: normal;
+        font-size: 45px;
+        font-weight: bold;
+        margin-top: 65px;
+    }
+
+    header p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        margin-top: 55px;
+    }
+
+    div #pablo{
+        border-radius: 27px;
+        margin-top: 55px;
+        margin-left: 150px;
+    }
+
+/* divisão 3 */
+
+    .conteiner #meusServicos h2{
+        font-family: var(--font-padrao);
+        color: rgb(241, 187, 86);
+        text-align: center;
+        margin-top: 80px;
+        font-size: 19px;
+}
+    .conteiner #meusServicos h1{
+        font-family: var(--font-padrao);
+        color: var(--cor-da-fonte);
+        text-align: center;
+        margin-bottom: 55px;
+    }
+
+    .conteiner img{
+        margin-left: 90px;
+    }
+
+    .conteiner #services h3{
+        color: var(--cor-da-fonte);
+        font-family: var(--font-padrao);
+        text-align:  center;
+    
+    }
+
+    .conteiner #services p{
+        color: var(--cor-da-fonte);
+        font-family: var(--font-padrao);
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
