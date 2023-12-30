@@ -118,7 +118,209 @@ body{
         color: var(--cor-da-fonte);
         font-family: var(--font-padrao);
         text-align: center;
+        font-size: 14px;
     }
+
+/* divisão 3 */
+
+    .conteiner div iframe{
+        margin-top: 55px;
+    }
+
+   #texto-video{
+    font-family: var(--font-padrao);
+    color: var(--cor-da-fonte);
+    margin: 55px 0px 16px 75px;
+   }
+
+   input{
+    width: 300px;
+    height: 40px;
+    background-color: #ffffff;
+    margin: 10px 0px 10px 75px;
+    border: 0px;
+    border-radius: 7px;
+    padding-left: 15px;
+    margin-left: 75px;
+   }
+
+   button{
+        background-color: rgb(237, 170, 46);
+        width: 200px;
+        height: 45px;
+        border: 0px;
+        border-radius: 7px;
+        color: #ffffff;
+        margin-top: 35px;
+        margin: 10px 0px 45px 75px;
+        font-weight: bolder;
+        cursor: pointer;
+        font-family: var(--font-padrao);
+   }
+
+   button:hover{
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #b1a99e81;
+    transition-duration: 0,7s;
+}
+
+/* carrossel*/
+
+#carrossel{
+    background: linear-gradient(180deg, black 12.25%, #d3d3d3 28.55%), #d3d3d3;
+    background-repeat: no-repeat;
+}
+
+#titleCarrossel{
+    color: var(--cor-da-fonte);
+    font-family: var(--font-padrao);
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#provas-sociais{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.provas{
+    margin-left: 100px;
+    border-radius: 18px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+}
+
+#vectoresquerdo{
+    display: none;
+}
+
+#prova3{
+    display: none;
+}
+
+.vector{
+    cursor: pointer;
+}
+
+.vector:hover{
+    transform: translateY(-7px);
+    transition-duration: 0,5s;
+}
+
+@media only screen and (max-width: 600px){
+    
+    body{
+        margin: auto;
+    }
+    .conteiner{
+        display: contents;
+    }
+
+    #logo{
+        margin: 30px 0px 20px 30px;
+
+    }
+
+    #logo img{
+        width: 90%;
+    }
+
+    #menu ul li{
+        font-size: 50px;
+        text-align: center;
+        width: 400%;
+        margin-left: 125px;
+    }
+
+    ul li{
+        margin-bottom: 50px;
+    }
+
+    header h1{
+        text-align: center;
+        font-size: 60px;
+        width: 400%;
+    }
+
+    header p{
+        text-align: center;
+        font-size: 45px;
+        width: 400%;
+    }
+
+    div #pablo{
+        width: 250%;
+        margin-left: 250px;
+    }
+
+    .conteiner #meusServicos h2{
+        width: 400%;
+        font-size: 50px;
+    }
+
+    .conteiner #meusServicos h1{
+        width: 400%;
+        font-size: 60px;
+    }
+
+    #services img{
+        width: 30%;
+        margin-left: 450px;
+    }
+
+    #services{
+        width: 400%;
+        font-size: 45px;
+    }
+
+    .conteiner #services p{
+        font-size: 45px;
+    }
+
+    #video iframe{
+        width: 300%;
+        margin-left: 150px;
+    }
+
+    .conteiner div #texto-video{
+        width: 350%;
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    input{
+        width: 500px;
+        height: 75px;
+        font-size: 27px;
+        margin-left: 400px;
+    }
+
+    button{
+        width: 500px;
+        height: 75px;
+        font-size: 27px;
+        margin-left: 409px;
+    }
+
+    #carrossel{
+        width: 400%;
+    }
+    
+    #titleCarrossel{
+        font-size: 55px;
+    }
+
+    #provas-sociais img{
+        width: 70%;
+    }
+
+
+}    
+
+
+
 
 
 

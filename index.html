@@ -14,8 +14,8 @@
         
         <div id="menu">
             <ul>
-                <li> <a href="">Meus serviços</a></li>
-                <li> <a href="">Contato</a></li>
+                <li> <a href="#meusServicos">Meus serviços</a></li>
+                <li> <a href="#video">Contato</a></li>
             </ul>
         </div>
     </div>
@@ -26,10 +26,11 @@
                 <h1>Olá, meu nome <br> é Pablo</h1>
 
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br>
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco <br>
-                    laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    Pablo Vinicius: Pablo Vinicius é um especialista em consórcio e
+                    financiamento, oferecendo soluções financeiras para ajudar
+                    as pessoas a adquirirem bens como carros, motos, realizar
+                    construções, reformas e muito mais, através do uso de crédito.
+                </p>
             </header>
         </div>
 
@@ -49,61 +50,75 @@
         <div id="services">
             <img src="imagens/finaciamento.svg" alt="">
             <h3>Finaciamento</h3>
-            <p>"Neque porro quisquam <br>
-                est qui dolorem ipsum <br>
-                quia dolor sit amet, <br>
-                consectetur, adipisci velit..."
+            <p>
+                O financiamento é uma maneira de <br>
+                adquirir bens ou serviços e pagar <br>
+                em médio ou longo prazo, geralmente <br>
+                com o acréscimo de taxas e juros.
             </p>
         </div>
 
         <div id="services">
             <img src="imagens/consorcio.svg" alt="">
-            <h3>Consórcio</h3>
-            <p>"Neque porro quisquam <br>
-                est qui dolorem ipsum <br>
-                quia dolor sit amet, <br>
-                consectetur, adipisci velit..."
+            <h3>Carta crédito</h3>
+            <p>
+                Na carta crédito, os participantes também <br>
+                têm a opção de ofertar lances para <br>
+                antecipar a contemplação e adquirir o <br>
+                bem ou serviço desejado, com a <br>
+                possibilidade de lance embutido.
             </p>
         </div>
 
         <div id="services">
             <img src="imagens/capitadegiro.svg" alt="">
-            <h3>Qual Melhor?</h3>
-            <p>"Neque porro quisquam <br>
-                est qui dolorem ipsum <br>
-                quia dolor sit amet, <br>
-                consectetur, adipisci velit..."
+            <h3>Capital de Giro</h3>
+            <p>
+                O consórcio pode ser uma opção mais <br>
+                eficaz para obter capital de giro, pois <br>
+                permite a aquisição planejada de recursos <br>
+                financeiros por meio de parcelas mensais, <br>
+                sem a incidência de juros.
             </p>
         </div>
     </div>    
 
         <div class="conteiner">
-            <div>
+            <div id="video">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/omzQSCOxEn4?si=YP-W0swAJ8WqMNlZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
 
             <div>
-                <h1>
-                    Neque porro quisquam
-                </h1>
+                <p id="texto-video">
+                    Quer descobrir os segredos para adquirir um imóvel, <br>
+                    uma moto, um carro ou um capital de giro da melhor <br>
+                    forma possível? Deixe seu contato abaixo para receber <br>
+                    dicas exclusivas e informações valiosas! <br>
+                </p>
 
-                <h2>
-                    Neque porro quisquam <br>
-                    est qui dolorem ipsum <br>
-                    quia dolor sit amet, <br>
-                    consectetur, adipisci velit...
-                </h2>
+            <form action="https://api.sheetmonkey.io/form/oqGtz2SM8JAe3X8YMu484r" method="post">
+                <input type="text" placeholder="Seu Nome" name="Name" required>
+                <input type="text" placeholder="Seu número" name="number">
+                <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+                <button type="submit">Enviar</button>
+            </form>
+           </div>
+    </div>
 
-                <label>Nome:</label>
-                <input type="text" placeholder="Seu nome">
-            
-                <label>Telefone:</label>
-                <input type="text" placeholder="Seu número">
+    <div id="carrossel">
+        <h1 id="titleCarrossel">
+            Mais de 100 pessoas já foram consignadas
+        </h1>
 
-                <input type="submit" value="Enviar">
-            </div>
-
+        <div id="provas-sociais">
+            <img id="vectoresquerdo" onclick="RolarParaEsquerda()" class="vector" src="ícones/vectoresquerdo.svg" alt="">
+            <img id="prova1" class="provas" src="imagens/prova1.svg" alt="">
+            <img id="prova2" class="provas" src="imagens/prova1.svg" alt="">
+            <img id="prova3" class="provas" src="imagens/prova1.svg" alt="">
+            <img id="vectordireito" onclick="RolarParaDireita()" class="vector" src="ícones/vectordireito.svg" alt="">
         </div>
     </div>
+
+    <script src="index.js"></script>
 </body>
 </html>
